@@ -146,7 +146,7 @@ class JobItemDetails extends Component {
                 <div className="company-logo-rating-title-container">
                   <img
                     src={companyLogoUrl}
-                    alt="company logo"
+                    alt="similar job company logo"
                     className="company-logo"
                   />
                   <div className="name-rating-container">
@@ -195,11 +195,11 @@ class JobItemDetails extends Component {
     } = jobDetails
     return (
       <>
-        <div className="job-item item-details">
+        <div className="job-detail-item item-details">
           <div className="company-logo-rating-title-container">
             <img
               src={companyLogoUrl}
-              alt="company logo"
+              alt="job details company logo"
               className="company-logo"
             />
             <div className="name-rating-container">
@@ -255,7 +255,7 @@ class JobItemDetails extends Component {
         alt="failure view"
         className="jobs-failure-view-img"
       />
-      <h1>Oops! Somethings Went Wrong</h1>
+      <h1>Oops! Something Went Wrong</h1>
       <p>We cannot seem to find the page you are looking for</p>
       <button type="button" className="retry-btn" onClick={this.onClickRetry}>
         Retry

@@ -25,17 +25,27 @@ const Header = props => {
             className="header-website-logo"
           />
         </Link>
-        <div className="mobile-nav-links-container">
+        <ul className="mobile-nav-links-container">
           <Link to="/">
-            <IoMdHome className="nav-icon" />
+            <li>
+              <IoMdHome className="nav-icon" />
+            </li>
           </Link>
           <Link to="/jobs">
-            <BsBriefcaseFill className="nav-icon" />
+            <li>
+              <BsBriefcaseFill className="nav-icon" />
+            </li>
           </Link>
-          <button type="button" className="logout-btn" onClick={onClickLogout}>
-            <FiLogOut className="nav-icon" />
-          </button>
-        </div>
+          <li>
+            <button
+              type="button"
+              className="logout-btn"
+              onClick={onClickLogout}
+            >
+              <FiLogOut className="nav-icon" />
+            </button>
+          </li>
+        </ul>
         <div className="desktop-nav-links-container">
           <Link to="/" className="nav-link">
             Home

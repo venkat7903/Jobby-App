@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import Header from '../Header'
 
 import './index.css'
@@ -7,7 +8,6 @@ const Home = props => {
     const {history} = props
     history.replace('/jobs')
   }
-
   return (
     <>
       <Header />
@@ -23,7 +23,9 @@ const Home = props => {
             className="find-job-btn"
             onClick={onClickFindJobs}
           >
-            Find Jobs
+            <Link to="/jobs" className="find-jobs-link">
+              Find Jobs
+            </Link>
           </button>
         </div>
       </div>

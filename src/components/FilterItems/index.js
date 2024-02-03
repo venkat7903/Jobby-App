@@ -43,7 +43,7 @@ const FilterItems = props => {
 
   const renderEmploymentTypes = () => (
     <div className="emp-types-container">
-      <h1 className="emp-types-title">Types of Employment</h1>
+      <h1 className="emp-types-title">Type of Employment</h1>
       <ul className="types-list">
         {employmentTypesList.map(each => {
           const {label, employmentTypeId} = each

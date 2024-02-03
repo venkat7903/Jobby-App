@@ -27,10 +27,15 @@
   border: none;
   outline: none;
   cursor: pointer;
-  color: #fff;
+
   padding: 0px 20px;
   border-radius: 8px;
   margin-top: 20px;
+}
+
+.find-jobs-link {
+  text-decoration: none;
+  color: #fff;
 }
 
 @media (min-width: 768px) {

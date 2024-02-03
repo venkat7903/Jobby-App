@@ -47,6 +47,7 @@ class Jobs extends Component {
 
     const {searchInput, checksList, activeSalaryId} = this.state
     const empTypesStr = checksList.join()
+    console.log(checksList)
     console.log(empTypesStr)
     const jwtToken = Cookies.get('jwt_token')
     const apiUrl = `https://apis.ccbp.in/jobs?employment_type=${empTypesStr}&minimum_package=${activeSalaryId}&search=${searchInput}`
@@ -78,8 +79,10 @@ class Jobs extends Component {
 
   updateChecksList = id => {
     const {checksList} = this.state
+    console.log(id)
+    console.log(checksList)
     if (checksList.includes(id)) {
-      const filteredChecksList = checksList.filter(each => each.id === id)
+      const filteredChecksList = checksList.filter(each => each !== id)
       this.setState({checksList: filteredChecksList}, this.getJobsList)
     } else {
       this.setState(
@@ -197,7 +200,7 @@ class Jobs extends Component {
           alt="failure view"
           className="jobs-failure-view-img"
         />
-        <h1>Oops! Somethings Went Wrong</h1>
+        <h1>Oops! Something Went Wrong</h1>
         <p>We cannot seem to find the page you are looking for</p>
         <button type="button" className="retry-btn" onClick={this.onClickRetry}>
           Retry

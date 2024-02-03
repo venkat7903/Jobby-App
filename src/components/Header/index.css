@@ -1,6 +1,6 @@
 .header-container {
   background-color: #202020;
-  padding: 25px 0px;
+  padding: 20px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,6 +20,8 @@
 }
 
 .mobile-nav-links-container {
+  list-style-type: none;
+  padding-left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
