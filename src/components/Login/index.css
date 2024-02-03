@@ -1,0 +1,69 @@
+.login-route-container {
+  background: #000000;
+  min-height: 100vh;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.login-from-container {
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 450px;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.login-route-website-logo {
+  width: 120px;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 14px;
+}
+
+.label {
+  color: #f8fafc;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.input {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #475569;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  padding: 0px 14px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.login-btn {
+  background-color: #4f46e5;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 550;
+  margin-top: 10px;
+}
+
+.error-msg {
+  color: #ff0b37;
+  margin-bottom: 0;
+  font-size: 13px;
+}
