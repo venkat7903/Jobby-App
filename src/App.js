@@ -2,6 +2,7 @@ import {Switch, Route, Redirect} from 'react-router-dom'
 
 import Login from './components/Login'
 import ProtectedRoute from './components/ProtectedRoute'
+import Home from './components/Home'
 
 import './App.css'
 
@@ -48,7 +49,7 @@ const salaryRangesList = [
 const App = () => (
   <Switch>
     <Route exact path="/login" component={Login} />
-    <ProtectedRoute exact path="/" component={null} />
+    <ProtectedRoute exact path="/" component={Home} />
     <ProtectedRoute exact path="/jobs" component={null} />
     <Route path="/not-found" component={null} />
     <Redirect to="/not-found" />
