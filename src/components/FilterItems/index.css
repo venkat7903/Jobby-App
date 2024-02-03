@@ -1,0 +1,18 @@
+.emp-types-title {
+  color: #fff;
+  font-size: 18px;
+}
+
+.types-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.emp-type-item {
+  margin: 8px 0px;
+}
+
+.emp-label {
+  color: #fff;
+  margin-left: 10px;
+}

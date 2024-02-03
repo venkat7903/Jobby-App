@@ -1,0 +1,32 @@
+.not-found-route-container {
+  min-height: 100vh;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.sub-not-found-route-container {
+  width: 70%;
+  max-width: 400px;
+}
+
+.not-found-img {
+  width: 100%;
+}
+
+.not-found-title {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.not-found-desc {
+  color: #7e858e;
+  padding: 20px;
+  margin: 0;
+}

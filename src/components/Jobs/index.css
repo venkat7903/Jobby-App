@@ -1,0 +1,158 @@
+.jobs-route-container {
+  min-height: 100vh;
+  background: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.sub-jobs-route-container {
+  width: 90%;
+  max-width: 1140px;
+}
+
+.search-input-container {
+  background-color: transparent;
+  border: 2px solid #2c364c;
+  display: flex;
+  height: 33px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .search-input-container {
+    display: none;
+  }
+
+  .sub-jobs-route-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.desktop-search-input-container {
+  background-color: transparent;
+  border: 2px solid #2c364c;
+  display: flex;
+  height: 33px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 60%;
+  width: 400px;
+}
+
+@media (max-width: 767px) {
+  .desktop-search-input-container {
+    display: none;
+  }
+}
+
+.search-input {
+  background-color: transparent;
+  border: none;
+  padding-left: 15px;
+  flex-grow: 1;
+  outline: none;
+  color: #fff;
+}
+
+.search-btn {
+  width: 50px;
+  background: #272727;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.profile-and-filters-container {
+  width: 100%;
+}
+
+.jobs-views-container {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .profile-and-filters-container {
+    width: 30%;
+    margin-right: 50px;
+  }
+
+  .jobs-views-container {
+    width: 70%;
+  }
+}
+
+.horizontal-line {
+  width: 100%;
+  margin: 20px 0px;
+  background: #475569;
+  height: 2px;
+  border: none;
+}
+
+.jobs-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.jobs-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  height: 80vh;
+}
+
+.no-job-title {
+  color: #fff;
+}
+
+.no-jobs-img {
+  width: 90%;
+  max-width: 400px;
+}
+
+.no-jobs-desc {
+  color: #f1f5f9;
+  margin: 0;
+}
+
+.jobs-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+  color: #fff;
+}
+
+.jobs-failure-view-img {
+  width: 90%;
+  max-width: 400px;
+}
+
+.retry-btn {
+  width: 80px;
+  height: 30px;
+  color: #fff;
+  background-color: #4f46e5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
