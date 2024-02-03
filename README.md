@@ -1,5 +1,7 @@
 In this project, let's build a **Jobby App** by applying the concepts we have learned till now.
 
+project link - https://jobbyfinder.ccbp.tech/jobs
+
 ### Refer to videos below:
 
 <div style="text-align: center;">
