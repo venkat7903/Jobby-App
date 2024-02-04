@@ -2,6 +2,9 @@ In this project, let's build a **Jobby App** by applying the concepts we have le
 
 project link - https://jobbyfinder.ccbp.tech/jobs
 
+username - raja
+password - raja@2021
+
 ### Refer to videos below:
 
 <div style="text-align: center;">
