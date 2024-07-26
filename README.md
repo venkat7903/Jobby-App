@@ -2,6 +2,8 @@ In this project, let's build a **Jobby App** by applying the concepts we have le
 
 project link - https://jobbyfinder.ccbp.tech/jobs
 
+cd .. && rm -rf jobbyApp && mkdir jobbyApp && cd jobbyApp && git clone https://github.com/venkat7903/Jobby-App.git /home/workspace/reactjs/coding-practices/jobbyApp
+
 username - raja
 password - raja@2021
 
